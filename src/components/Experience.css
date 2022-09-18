@@ -1,0 +1,32 @@
+.experience{
+    padding: 90px 0px 90px 0px;
+}
+.videoContainer{
+    display: flex;
+}
+.videoContainer .expLeft{
+    padding: 10px 10px 10px 10px;
+}
+.videoContainer .expRight{
+    margin: 0px 0px 0px 40px;
+    padding: 10px 10px 10px 10px;
+}
+.videoContainer .expRight h2{
+    margin: 0px 0px 20px 0px;
+    padding: 20px 20px 0px 0px;
+    font-family: "IBM Plex Sans", Sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(25, 50, 76);
+}
+.videoContainer .expRight p{
+    color: #505b67;
+    font-family: "IBM Plex Sans", Sans-serif;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.videoContainer .expRight ul li{
+    font-family: "IBM Plex Sans", Sans-serif;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
