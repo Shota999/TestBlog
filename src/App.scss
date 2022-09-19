@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", Sans-serif;
+}
+
+// Header style
+.mainHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .headerContainer {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    .menu {
+      display: flex;
+
+      ul {
+        display: flex;
+
+        li {
+          a {
+            margin-right: 10px;
+            color: #a1a2a4;
+            transition: 0.2s ease-in-out;
+            padding: 3px 3px 2px;
+
+            &:hover {
+              color: #3b3d42;
+            }
+          }
+        }
+        ul li:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+// App Style
+
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .mainContainer {
+    max-width: 1200px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+
+    .left {
+      padding: 122px 10px 0 10px;
+      line-height: 26px;
+
+      h1 {
+        color: #19324c;
+        font-size: 44px;
+        line-height: 64px;
+
+        span {
+          color: rgb(65, 115, 242);
+        }
+      }
+      p {
+        font-size: 16px;
+        padding: 10px;
+
+        span {
+          color: rgb(65, 115, 242);
+        }
+      }
+      button {
+        border: none;
+        color: #ffffff;
+        background-color: #2763fb;
+        border-radius: 2px 2px 2px 2px;
+        padding: 14px 20px 15px 20px;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+          color: #ffffff;
+          background-color: #2763fb;
+        }
+      }
+    }
+  }
+
+  // Experience style
+  .experience {
+    padding: 90px 0px;
+
+    .videoContainer {
+      display: flex;
+
+      .expLeft {
+        padding: 10px;
+      }
+
+      .expRight {
+        margin-left: 40px;
+        padding: 10px;
+
+        h2 {
+          margin-bottom: 20px;
+          padding-top: 20px;
+          padding-right: 20px;
+          font-family: "IBM Plex Sans", Sans-serif;
+          font-size: 36px;
+          font-weight: 600;
+          color: rgb(25, 50, 76);
+        }
+
+        p {
+          color: #505b67;
+          font-family: "IBM Plex Sans", Sans-serif;
+          font-size: 20px;
+          margin-bottom: 40px;
+        }
+
+        ul {
+          li {
+            font-family: "IBM Plex Sans", Sans-serif;
+            font-size: 16px;
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  // Services style
+
+  &.background_container {
+    background: linear-gradient(180deg, #f3f6fa 50%, #fafbfd 50%);
+
+    .services {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .service_container {
+        text-align: center;
+        margin: 50px 0px;
+        position: relative;
+
+        h2 {
+          color: #19324c;
+          font-size: 36px;
+        }
+
+        p {
+          color: #4b5969;
+          font-family: "IBM Plex Sans", Sans-serif;
+          font-size: 16px;
+
+          span {
+            color: #19324c;
+          }
+        }
+
+        .service_content {
+          background-color: #fff;
+          width: 100%;
+          margin-top: 40px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 50px;
+
+          .block {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-right: 20px;
+
+            h3 {
+              margin-top: 30px;
+              color: #19324c;
+              font-size: 18px;
+              margin-bottom: 20px;
+            }
+
+            p {
+              font-size: 16px;
+              color: #505b67;
+              text-align: left;
+              line-height: 25px;
+            }
+
+            a {
+              margin-top: 40px;
+              color: #4173f2;
+              font-size: 12px;
+              text-transform: uppercase;
+            }
+
+            img {
+              width: 46px;
+            }
+          }
+        }
+      }
+      .images_container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        padding-bottom: 40px;
+      }
+    }
+  }
+}
