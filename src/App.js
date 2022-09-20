@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import Header from './components/Header';
 import Experience from './components/Experience';
 import Services from './components/Services';
+import Company from './components/Company';
+import Advantage from './components/Advantage';
 
 function App() {
   const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -26,6 +28,8 @@ function App() {
 
       <Experience />
       <Services />
+      <Company />
+      <Advantage />
     </>
   );
 }

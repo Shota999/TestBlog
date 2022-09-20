@@ -1,6 +1,10 @@
+import Nav from './Nav';
 import '../App.scss'
 
 export default function header() {
+    const menuItems = ['Home', 'About us', 'Contact', 'Blog'];
+
+
     return (
         <div className="mainHeader">
             <div className="headerContainer">
@@ -9,13 +13,18 @@ export default function header() {
                 </div>
                 <div className="menu">
                     <ul>
-                        <li><a href="#">Home</a> </li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        {
+                            menuItems.map((e) => {
+                                return <Nav title={e} />
+                            })
+                        }
                     </ul>
                 </div>
             </div>
         </div>
     )
+
+
 }
+
+// 
