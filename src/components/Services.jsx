@@ -7,7 +7,7 @@ export default function services() {
                 <div className="mainContainer services">
                     <div className="service_container">
                         <h2>Our services that you can use</h2>
-                        <p>We provide various business <span>services</span> to help our clients to handle different issues and
+                        <p className="service_p">We provide various business <span>services</span> to help our clients to handle different issues and
                             boost their business.</p>
                         <div className="service_content">
                             <div className="block">
@@ -37,12 +37,12 @@ export default function services() {
                         </div>
                     </div>
                     <div className="images_container">
-                        <img src="/images/brand-1.webp" alt="img" />
-                        <img src="/images/brand-1.webp" alt="img" />
-                        <img src="/images/brand-1.webp" alt="img" />
-                        <img src="/images/brand-1.webp" alt="img" />
-                        <img src="/images/brand-1.webp" alt="img" />
-                        <img src="/images/brand-1.webp" alt="img" />
+                        <img src="/images/service_images/brand-1.webp" alt="img" />
+                        <img src="/images/service_images/brand-2.webp" alt="img" />
+                        <img src="/images/service_images/brand-3.webp" alt="img" />
+                        <img src="/images/service_images/brand-4.webp" alt="img" />
+                        <img src="/images/service_images/brand-5.webp" alt="img" />
+                        <img src="/images/service_images/brand-6.webp" alt="img" />
                     </div>
                 </div>
             </div>
