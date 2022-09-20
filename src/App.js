@@ -5,6 +5,8 @@ import Experience from './components/Experience';
 import Services from './components/Services';
 import Company from './components/Company';
 import Advantage from './components/Advantage';
+import News from './components/News';
+import Contact from './components/Contact';
 
 function App() {
   const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -30,6 +32,8 @@ function App() {
       <Services />
       <Company />
       <Advantage />
+      <News />
+      <Contact />
     </>
   );
 }

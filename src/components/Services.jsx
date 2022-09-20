@@ -32,7 +32,7 @@ export default function services() {
                                 <h3>Profitable AdWords campaigns</h3>
                                 <p>Develop a deeper understanding of market trends, threats, opportunities, seo, competitors and
                                     customers.</p>
-                                <a href="#">learn more</a>
+                                <a href="#">learn more </a>
                             </div>
                         </div>
                     </div>
