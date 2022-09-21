@@ -451,6 +451,17 @@
   }
 }
 
+// Contact
+
+.contact_container{
+  display: flex;
+  width: 100%;
+
+  .content{
+    flex: 1;
+  }
+}
+
 body {
   padding-bottom: 300px;
 }
