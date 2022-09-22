@@ -4,10 +4,19 @@ import GoogleMapReact from 'google-map-react';
 
 
 export default function Contact() {
-  const contact = ["357 Travis Ave Staten Island, NY 10314, USA", "Mobile: 800.1556.78.18", "Hotline: 800.5567.99.21",
-    "info@demolink.org"];
+  const contact = [
+    "357 Travis Ave Staten Island, NY 10314, USA",
+    "Mobile: 800.1556.78.18",
+    "Hotline: 800.5567.99.21",
+    "info@demolink.org"
+  ];
 
-  const socMedia = [<i class="fa-brands fa-facebook"></i>, <i class="fa-brands fa-instagram"></i>, <i class="fa-brands fa-youtube"></i>]
+  const socMedia = [
+    <i class="fa-brands fa-facebook"></i>,
+    <i class="fa-brands fa-instagram"></i>,
+    <i class="fa-brands fa-youtube"></i>,
+    <i class="fa-brands fa-linkedin"></i>
+  ];
 
   const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
