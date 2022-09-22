@@ -1,9 +1,10 @@
-import Information from './Information'
-import SocMedia from './SocMedia'
-import GoogleMapReact from 'google-map-react';
+import Information from './Information';
+import SocMedia from './SocMedia';
+import Map from './Map';
 
 
 export default function Contact() {
+
   const contact = [
     "357 Travis Ave Staten Island, NY 10314, USA",
     "Mobile: 800.1556.78.18",
@@ -18,15 +19,7 @@ export default function Contact() {
     <i class="fa-brands fa-linkedin"></i>
   ];
 
-  const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
-  const defaultProps = {
-    center: {
-      lat: 10.99835602,
-      lng: 77.01502627
-    },
-    zoom: 11
-  };
 
 
   return (
@@ -50,20 +43,7 @@ export default function Contact() {
         </ul>
       </div>
 
-      <div className="map">
-        <GoogleMapReact
-          bootstrapURLKeys={{ key: "" }}
-          defaultCenter={defaultProps.center}
-          defaultZoom={defaultProps.zoom}
-        >
-          <AnyReactComponent
-            lat={59.955413}
-            lng={30.337844}
-            text="My Marker"
-          />
-        </GoogleMapReact>
-      </div>
+      <Map />
     </div>
-
   )
 }

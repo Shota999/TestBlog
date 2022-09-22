@@ -2,7 +2,12 @@ import Nav from './Nav';
 import '../App.scss'
 
 export default function header() {
-    const menuItems = ['Home', 'About us', 'Contact', 'Blog'];
+    const menuItems = [
+        'Home',
+        'About us',
+        'Contact',
+        'Blog'
+    ];
 
 
     return (

@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export default function Nav(props) {
 
     const title = props.title;
