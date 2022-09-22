@@ -43,16 +43,16 @@ export default function Company() {
                             </div>
                             <ul>
                                 <li>
-                                    <i class="fa fa-check"></i> Content Optimization
+                                    <i className="fa fa-check"></i> Content Optimization
                                 </li>
                                 <li>
-                                    <i class="fa fa-check"></i> Risk Management
+                                    <i className="fa fa-check"></i> Risk Management
                                 </li>
                                 <li>
-                                    <i class="fa fa-check"></i> Marketing Plan
+                                    <i className="fa fa-check"></i> Marketing Plan
                                 </li>
                                 <li>
-                                    <i class="fa fa-check"></i> Branding Strategy
+                                    <i className="fa fa-check"></i> Branding Strategy
                                 </li>
                             </ul>
                         </div>
@@ -66,16 +66,16 @@ export default function Company() {
                             </div>
                             <ul>
                                 <li>
-                                    <i class="fa fa-check"></i> Content Optimization
+                                    <i className="fa fa-check"></i> Content Optimization
                                 </li>
                                 <li>
-                                    <i class="fa fa-check"></i> Risk Management
+                                    <i className="fa fa-check"></i> Risk Management
                                 </li>
                                 <li>
-                                    <i class="fa fa-check"></i> Marketing Plan
+                                    <i className="fa fa-check"></i> Marketing Plan
                                 </li>
                                 <li>
-                                    <i class="fa fa-check"></i> Branding Strategy
+                                    <i className="fa fa-check"></i> Branding Strategy
                                 </li>
                             </ul>
                         </div>

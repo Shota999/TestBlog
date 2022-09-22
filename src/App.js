@@ -7,11 +7,14 @@ import Company from './components/Company';
 import Advantage from './components/Advantage';
 import News from './components/News';
 import Contact from './components/Contact';
+import Loader from './Loader';
+
 
 function App() {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <>
+<Loader />
 
   <Header />
 

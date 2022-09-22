@@ -6,7 +6,26 @@
   box-sizing: border-box;
   font-family: "IBM Plex Sans", Sans-serif;
 }
-
+h2 {
+  color: #19324c;
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  line-height: 1.39em;
+}
+a {
+  margin-top: 40px;
+  color: #4173f2;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+h3 {
+  margin-top: 30px;
+  color: #19324c;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
 // Header style
 .mainHeader {
   display: flex;
@@ -56,6 +75,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: 15px;
 
   .mainContainer {
     max-width: 1200px;
@@ -63,26 +83,7 @@
     flex: 1;
     justify-content: space-between;
 
-    h2 {
-      color: #19324c;
-      font-size: 36px;
-      margin-top: 20px;
-      margin-bottom: 30px;
-      line-height: 1.39em;
-    }
-    a {
-      margin-top: 40px;
-      color: #4173f2;
-      font-size: 12px;
-      text-transform: uppercase;
-      font-weight: 600;
-    }
-    h3 {
-      margin-top: 30px;
-      color: #19324c;
-      font-size: 18px;
-      margin-bottom: 20px;
-    }
+    
 
     .left {
       padding: 122px 10px 0 10px;
@@ -127,7 +128,7 @@
 
   // Experience style
   .experience {
-    padding: 90px 0px;
+    padding: 75px 0px;
 
     .videoContainer {
       display: flex;
@@ -180,7 +181,8 @@
 
       .service_container {
         text-align: center;
-        margin: 30px 0px;
+        margin-top: 15px;
+        margin-bottom: 30px;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -248,8 +250,7 @@
     .company {
       width: 100%;
       text-align: center;
-      margin-top: 20px;
-      margin-bottom: 70px;
+      margin-bottom: 50px;
 
       .title {
         p {
@@ -353,7 +354,7 @@
       }
 
       .advantage {
-        padding-top: 80px;
+        padding-top: 65px;
         display: flex;
         justify-content: space-between;
 
@@ -412,7 +413,7 @@
 .mainContainer {
   .news_container {
     width: 100%;
-    padding: 30px 0;
+    padding: 15px 0;
 
     h2 {
       text-align: center;
@@ -458,8 +459,8 @@
     width: 50%;
 
     ul {
-      margin-top: 30px;
-
+      margin-bottom: 15px;
+      
       li {
         color: #3b3d42;
         font-size: 14px;
@@ -468,13 +469,19 @@
     }
     .socMedia {
       display: flex;
+      margin-top: 30px;
 
       li {
         margin-right: 15px;
 
         i {
           color: #3b3d42;
-          font-size: 14px;
+          font-size: 18px;
+          transition: .2s ease-in-out;
+
+          &:hover{
+            color: #4173f2;
+          }
         }
       }
     }

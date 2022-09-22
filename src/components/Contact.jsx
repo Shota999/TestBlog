@@ -13,10 +13,10 @@ export default function Contact() {
   ];
 
   const socMedia = [
-    <i class="fa-brands fa-facebook"></i>,
-    <i class="fa-brands fa-instagram"></i>,
-    <i class="fa-brands fa-youtube"></i>,
-    <i class="fa-brands fa-linkedin"></i>
+    <i className="fa-brands fa-facebook"></i>,
+    <i className="fa-brands fa-instagram"></i>,
+    <i className="fa-brands fa-youtube"></i>,
+    <i className="fa-brands fa-linkedin"></i>
   ];
 
 
