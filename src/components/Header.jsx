@@ -14,7 +14,9 @@ export default function header() {
         <div className="mainHeader">
             <div className="headerContainer">
                 <div className="logo">
-                    <img src="https://ld-wp.template-help.com/wordpress_free/23137/wp-content/themes/newgroup/assets/images/logo.png" alt="logo" />
+                    <a href="/App">
+                        <img src="https://ld-wp.template-help.com/wordpress_free/23137/wp-content/themes/newgroup/assets/images/logo.png" alt="logo" />
+                    </a>
                 </div>
                 <div className="menu">
                     <ul>
@@ -28,8 +30,4 @@ export default function header() {
             </div>
         </div>
     )
-
-
 }
-
-// 

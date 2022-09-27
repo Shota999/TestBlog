@@ -1,0 +1,25 @@
+{
+    "blogs": [
+        {
+            "title": "Search engine optimization" ,
+            "body": "Social media plays an important role in driving traffic to your site, so we operate with most innovative SEO tools.",
+            "more": "Learn more",
+            "img": "https://ld-wp.template-help.com/wordpress_free/23137/wp-content/uploads/2019/03/icon-1-1.png",
+            "id": 1
+        },
+        {
+            "title": "Email marketing services" , 
+            "body": "With this service you will get professional help and guidance how to resolve and prevent more extra costs.",
+            "more": "Learn more",
+            "img": "https://ld-wp.template-help.com/wordpress_free/23137/wp-content/uploads/2019/03/icon-2-1.png",
+            "id": 2
+        },
+        {
+            "title": "Profitable AdWords campaigns" , 
+            "body": "Develop a deeper understanding of market trends, threats, opportunities, seo, competitors and customers.",
+            "more": "Learn more",
+            "img": "https://ld-wp.template-help.com/wordpress_free/23137/wp-content/uploads/2019/03/icon-3-1.png",
+            "id": 3
+        }
+    ]
+}
