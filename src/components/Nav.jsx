@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 export default function Nav(props) {
@@ -6,6 +7,10 @@ export default function Nav(props) {
     const title = props.title;
 
     return (
-        <li><a href="#">{title}</a></li>
+        <li>
+            <Link to="/">
+                {title}
+            </Link>
+        </li>
     )
 }

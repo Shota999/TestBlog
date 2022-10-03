@@ -1,9 +1,11 @@
-import React from 'react'
-
-
+import React from 'react';
+import Header from '../Header';
 
 export default function ContactPage() {
     return (
-        <div>sadasdsadsadasdasdas</div>
+        <>
+        <Header />
+            <div>sadasdasd</div>
+        </>
     )
 }

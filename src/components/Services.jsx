@@ -24,7 +24,7 @@ const Services = () => {
                         <p className="service_p">We provide various business <span>services</span> to help our clients to handle different issues and
                             boost their business.</p>
 
-                        {blogs && <ServiceBlogs blogs={blogs} />}
+                        {blogs && <ServiceBlogs blogs={ blogs } />}
 
                     </div>
                     <div className="images_container">

@@ -1,5 +1,5 @@
 import Nav from './Nav';
-import '../App.scss'
+import '../App.scss';
 
 export default function header() {
     const menuItems = [
