@@ -21,5 +21,29 @@
             "img": "https://ld-wp.template-help.com/wordpress_free/23137/wp-content/uploads/2019/03/icon-3-1.png",
             "id": 3
         }
+    ],
+
+    "NewsBlogs":[
+        {
+            "title": "WordPress Business Themes to Give Your Company A Boost" ,
+            "body": "January 8, 2019",
+            "more": "Learn more",
+            "img": "/images/news_images/news.jpg",
+            "id": 4
+        },
+        {
+            "title": "15 Pro Industrial WordPress Themes Designed in 2018" ,
+            "body": "January 8, 2019",
+            "more": "Learn more",
+            "img": "/images/news_images/news.jpg",
+            "id": 5
+        },
+        {
+            "title": "Project Presentation" ,
+            "body": "January 8, 2019",
+            "more": "Learn more",
+            "img": "/images/news_images/news.jpg",
+            "id": 6
+        }
     ]
 }

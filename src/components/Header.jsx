@@ -1,5 +1,6 @@
 import Nav from './Nav';
 import '../App.scss';
+import { Link } from 'react-router-dom';
 
 export default function header() {
     const menuItems = [
@@ -14,9 +15,9 @@ export default function header() {
         <div className="mainHeader">
             <div className="headerContainer">
                 <div className="logo">
-                    <a href="/App">
+                    <Link to="/">
                         <img src="https://ld-wp.template-help.com/wordpress_free/23137/wp-content/themes/newgroup/assets/images/logo.png" alt="logo" />
-                    </a>
+                    </Link>
                 </div>
                 <div className="menu">
                     <ul>

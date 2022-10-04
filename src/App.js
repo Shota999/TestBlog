@@ -9,7 +9,7 @@ import Advantage from './components/Advantage';
 import News from './components/News';
 import Contact from './components/Contact';
 import ContactPage from './components/Pages/ContactPage';
-import BlogDetails from './components/Pages/BlogDetails';
+import NewsDetails from './components/Pages/NewsDetails';
 
 // import Loader from './Loader';
 
@@ -49,11 +49,11 @@ root.render(
           <News />
           <Contact />
         </Route>
-        <Route>
-            <ContactPage />
+        <Route path="/NewsBlogs/:id">
+            <NewsDetails />
         </Route>
-        <Route path="/blogs/:id">
-            <BlogDetails />
+        <Route path="/pages/ContactPage">
+            <ContactPage />
         </Route>
     </Switch>
         

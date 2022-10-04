@@ -5,7 +5,7 @@ export default function ContactPage() {
     return (
         <>
         <Header />
-            <div>sadasdasd</div>
+            <div>123231</div>
         </>
     )
 }
