@@ -13,7 +13,7 @@ return (
                     <img src="https://ld-wp.template-help.com/wordpress_free/23137/wp-content/uploads/2019/03/home-video-bg.jpg"
                         alt="img" />
                     <div className="play_button">
-                        <i class="fa-regular fa-circle-play"></i>
+                        <i className="fa-regular fa-circle-play"></i>
                     </div>
                 </div>
                 {/* <div className="popup">

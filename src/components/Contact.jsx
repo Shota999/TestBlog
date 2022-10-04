@@ -23,7 +23,6 @@ return (
   <div className="content">
     <div className="information">
 
-
       <h2>Contact Information</h2>
 
       <ul>
@@ -40,8 +39,8 @@ return (
 
       <ul className='socMedia'>
         {
-          socMedia.map((e) => {
-            return <SocMedia socTitle={e} />
+          socMedia.map((e, index) => {
+            return <SocMedia key={index} socTitle={e} />
           })
         }
       </ul>

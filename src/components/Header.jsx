@@ -1,13 +1,23 @@
-import Nav from './Nav';
+// import Nav from './Nav';
 import '../App.scss';
 import { Link } from 'react-router-dom';
 
+function Nav( {title , path} ) {
+
+    return (
+        <li>
+            <Link to={path}>
+                {title}
+            </Link>
+        </li>
+    )
+}
+
 export default function header() {
     const menuItems = [
-        'Home',
-        'About us',
-        'Contact',
-        'Blog'
+        {title: "home", path: "/"},
+        {title: "about", path: "/about"},
+        {title: "contact", path: "/ContactPage"},
     ];
 
 
@@ -22,8 +32,8 @@ export default function header() {
                 <div className="menu">
                     <ul>
                         {
-                            menuItems.map((e) => {
-                                return <Nav title={e} />
+                            menuItems.map((e , index) => {
+                                return <Nav key={index} title={e.title} path={e.path}/>
                             })
                         }
                     </ul>

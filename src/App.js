@@ -8,19 +8,15 @@ import Company from './components/Company';
 import Advantage from './components/Advantage';
 import News from './components/News';
 import Contact from './components/Contact';
-import ContactPage from './components/Pages/ContactPage';
-import NewsDetails from './components/Pages/NewsDetails';
+import ContactPage from './Pages/ContactPage';
+import NewsDetails from './Pages/NewsDetails';
 
 // import Loader from './Loader';
 
 
 function App() {
-  
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
-root.render(
+return(
   <Router>
-    <>
       {/* <Loader /> */}
 
     <Switch>
@@ -52,12 +48,10 @@ root.render(
         <Route path="/NewsBlogs/:id">
             <NewsDetails />
         </Route>
-        <Route path="/pages/ContactPage">
+        <Route path="/ContactPage">
             <ContactPage />
         </Route>
     </Switch>
-        
-    </>
 </Router>
 );
 }
