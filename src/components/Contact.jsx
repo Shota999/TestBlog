@@ -20,7 +20,7 @@ const socMedia = [
 
 return (
 <div className="contact_container">
-  <div className="content">
+  <div className="content maincontent">
     <div className="information">
 
       <h2>Contact Information</h2>
